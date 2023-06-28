@@ -13,7 +13,7 @@ time.sleep(1.2)
 for choice in question1["choices"]:
         print(choice)
 
-time.sleep(0.9)
+time.sleep(1.1)
 
 # Ask the user to select an answer
 user_answer = input("Enter your answer (A, B or C): ")
