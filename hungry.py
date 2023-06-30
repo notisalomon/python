@@ -18,7 +18,7 @@ for choice in question1["choices"]:
 time.sleep(0.3)
 is_hungry = input("Enter your answer (Yes or No): ")
 time.sleep(0.4)
-if is_hungry == ("Yes"):
+if is_hungry == "Yes" or is_hungry == "yes":
     print("Good, what do you want to eat?")
 else:
     sys.exit("Aaah, i could have cooked you something delicious..")
@@ -28,9 +28,9 @@ for choice in question2["choices"]:
 time.sleep(0.1)
 user_answer = input("Enter your answer (A, B or C): ")
 time.sleep(0.5)
-if user_answer == "A":
+if user_answer == "A" or user_answer == "Hamburger" or user_answer == "a" or user_answer == "hamburger":
     print("mmmm.. Nothing better than a classical american hamburger!")
-elif user_answer == "B":
+elif user_answer == "B" or user_answer == "b" or user_answer == "Pizza" or user_answer == "pizza":
     print("Aaah.. Bella Italia. Good choice!")
 else:
     print("Who doesn't like Lasagne?")
