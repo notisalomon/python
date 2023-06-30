@@ -25,8 +25,11 @@ if temp >= 0 and temp <= 12:
     time.sleep(2.2)
     print(manor["question"])
     manor_answer = input("")
-    if manor_answer == "Yes":
+    if manor_answer == "Yes" or manor_answer == "yes":
         webbrowser.open_new_tab(manor_url)
+    elif manor_answer == "No" or manor_answer == "no":
+        time.sleep(0.3)
+        print("Okay, just wear good clothes!")
 elif temp >= 13 or temp >= 30:
     print("Oh wow, seems to be nice out there. What are you doing here? Go out!")
     time.sleep(2.6)
@@ -34,23 +37,9 @@ elif temp >= 13 or temp >= 30:
     time.sleep(1.2)
     print(galaxus["question"])
     galaxus_answer = input("")
-    if galaxus_answer == "Yes":
+    if galaxus_answer == "Yes" or galaxus_answer == "yes":
         webbrowser.open_new_tab(galaxus_url)
-time.sleep(0.5)
-
-# Here the program forwards the user to the manor page or it exits
-#if manor_answer == "Yes":
-#    webbrowser.open_new_tab(manor_url)
-#else:
-#    print("Alright, have a good time")
-#galaxus_answer == "Yes":
-    #webbrowser.open_new_tab(galaxus_url)
-
-# if temp >= 0 and temp <= 12:
-    # print("I saw that Manor offers some really warm jackets for a discounted price.")
-    # time.sleep(2.8)
-    # offer = input("Are you interested?: ")
-# elif temp <= 13 or temp <= 30:
-    # print("Galaxus has some really great offers for rubber boats.")
-    # time.sleep(1.3)
-    # offer_galaxus = input("You want to take a look?: ")
+    elif galaxus_answer == "No" or galaxus_answer == "no":
+        time.sleep(0.3)
+        print("Okay, enjoy the weather!")
+time.sleep(0.7)
