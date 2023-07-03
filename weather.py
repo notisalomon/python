@@ -16,7 +16,7 @@ galaxus = {
         "No": ["No", "no"]
         }
 
-temp = int(input("How is the temperature today?: "))
+temp = int(input("How many degrees is the temperature today?: "))
 time.sleep(0.4)
 if temp >= 0 and temp <= 12:
     print("Seems to be cold outside. If you go out, wear a jacket!")
