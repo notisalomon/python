@@ -1,8 +1,11 @@
-def plusOne (number):
-    return number + 1
+print("cat", "dog", "fish", sep="🐱🐶🐟")
 
-newNumber = plusOne(5)
-print(newNumber)
+#______
+#def plusOne (number):
+#    return number + 1
+
+#newNumber = plusOne(5)
+#print(newNumber)
 
 #______
 #def hello():
