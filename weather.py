@@ -32,9 +32,9 @@ if temp >= 0 and temp <= 12:
         print("Okay, just wear good clothes!")
 elif temp >= 13 or temp >= 30:
     print("Oh wow, seems to be nice out there. What are you doing here? Go out!")
-    time.sleep(2.6)
+    time.sleep(2.4)
     print("Galaxus has some great offers for rubber boats.")
-    time.sleep(1.2)
+    time.sleep(2.2)
     print(galaxus["question"])
     galaxus_answer = input("")
     if galaxus_answer == "Yes" or galaxus_answer == "yes":
