@@ -1,4 +1,4 @@
-print("cat", "dog", "fish", sep="🐱🐶🐟")
+print("cat🐱", "dog🐶", "fish🐟")
 
 #______
 #def plusOne (number):
