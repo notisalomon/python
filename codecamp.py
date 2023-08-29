@@ -1,9 +1,15 @@
-print("Giraffe\"Academy\"")
+print(225)
+
+#Working with Strings
+#phrase = "Giraffe Academy"
+#print(phrase.replace("Giraffe", "Majmun"))
+#print(phrase.index("A"))
+#print(phrase[1])
+#print(len(phrase))
+#print(phrase.upper())
 
 
-
-
-
+#Variables and Data types
 #character_name = "Labi"
 #age = "28"
 #is_male = True
