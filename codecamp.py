@@ -1,4 +1,4 @@
-
+print("Giraffe\"Academy\"")
 
 
 
