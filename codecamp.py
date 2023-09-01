@@ -1,9 +1,51 @@
+#Advanced Calculator
+num1 = float(input("Enter first number: "))
+op = input("Enter operator: ")
+num2 = float(input("Enter second number: "))
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "/":
+    print(num1 / num2)
+elif op == "*":
+    print(num1 * num2)
+else:
+    print("Invalid Operator")
+
+#if statements and comparisons
+#def max_num(num1, num2, num3):
+#    if num1 >= num2 and num1 >= num3:
+#        return num1
+#    elif num2 >= num1 and num2 >= num3:
+#        return num2
+#    else:
+#        return num3
+#print(max_num(3, 5, 987))
+
+#if statements
+#is_male = True
+#is_tall = True
+#if is_male and is_tall:
+#    print("You are a tall male")
+#elif is_male and not(is_tall):
+#    print("You are a short male")
+#elif not(is_male) and is_tall:
+#    print("You are nota a male but are tall")
+#else:
+#    print("You are either not male or not tall or both")
+
+
+
+#def cube(num):
+#    return num*num*num
+#result = cube(4)
+#print(result)
+
 #Functions
-def say_hi(name, age):
-    print("Hello " + name +", you are " + str(age) + " years old.")
-
-say_hi("Labi", 35)
-
+#def say_hi(name, age):
+#    print("Hello " + name +", you are " + str(age) + " years old.")
+#say_hi("Labi", 35)
 
 #Tuples
 #coordinates = [(4, 5), (6, 7), (8, 9)]
