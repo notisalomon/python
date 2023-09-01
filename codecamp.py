@@ -1,8 +1,13 @@
+#Functions
+def sayhi ():
+    asdf
+
+
+
+
 #Tuples
-coordinates = [(4, 5), (6, 7), (8, 9)]
-print(coordinates[0][1])
-
-
+#coordinates = [(4, 5), (6, 7), (8, 9)]
+#print(coordinates[0][1])
 
 #Lists & Lists Functions
 #friends = ["Kevin", "Karen", "Jim", "Suzana"]
