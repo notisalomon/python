@@ -1,16 +1,39 @@
+#Writing to files
+employee_file = open("index.html", "w")
+employee_file.write("<p>This is HTML</p>")
+employee_file.close()
+
+
+#Reading Files
+#employee_file = open("employees.txt", "r")
+#for employee in employee_file.readlines():
+#    print(employee)
+#employee_file.close()
+
+#try and expect
+#try:
+#    value = 10/0
+#    number = int(input("Enter a number: "))
+#    print(number)
+#except ZeroDivisionError as err:
+#    print(err)
+#except ValueError as err:
+#    print(err)
+
+
 #Translator
-def translate(phrase):
-    translation = ""
-    for letter in phrase:
-        if letter.lower() in "aeiou":
-            if letter.isupper():
-                translation = translation + "G"
-            else:
-                translation = translation + "g"
-        else:
-            translation = translation + letter
-    return translation
-print(translate(input("Enter a phrase: ")))
+#def translate(phrase):
+#    translation = ""
+#    for letter in phrase:
+#        if letter.lower() in "aeiou":
+#            if letter.isupper():
+#                translation = translation + "G"
+#            else:
+#                translation = translation + "g"
+#        else:
+#            translation = translation + letter
+#    return translation
+#print(translate(input("Enter a phrase: ")))
 
 #2d Lists and Nested For Loops
 #number_grid = [
