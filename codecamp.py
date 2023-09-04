@@ -1,22 +1,61 @@
+#Translator
+def translate(phrase):
+    translation = ""
+    for letter in phrase:
+        if letter.lower() in "aeiou":
+            if letter.isupper():
+                translation = translation + "G"
+            else:
+                translation = translation + "g"
+        else:
+            translation = translation + letter
+    return translation
+print(translate(input("Enter a phrase: ")))
+
+#2d Lists and Nested For Loops
+#number_grid = [
+#    [1, 2, 3],
+#    [4, 5, 6],
+#    [7, 8, 9],
+#    [0]
+#]
+#print(number_grid[2][0])
+#for row in number_grid:
+#    for col in row:
+#        print(col)
+
+#Exponent Function
+#def raise_to_power(base_num, pow_num):
+#    result = 1
+#    for index in range (pow_num):
+#        result = result * base_num
+#    return result
+#print(raise_to_power(3, 4))
+
+#For Loop
+#friends = ["Jim", "Karen", "Kevin"]
+#for index in range(5):
+#    if index == 0:
+#        print("first Iteration")
+#    else:
+#        print("Not first")
+
 #Building a Guessing Game
-secret_word = "giraffe"
-guess = ""
-guess_count = 0
-guess_limit = 3
-out_of_guesses = False
-
-while guess != secret_word and not(out_of_guesses):
-    if guess_count < guess_limit:
-        guess = input("Enter guess: ")
-        guess_count += 1
-    else:
-        out_of_guesses = True
-
-if out_of_guesses:
-    print("Out of Guesses, YOU LOOSE!")
-else:
-    print("You win!")
-
+#secret_word = "giraffe"
+#guess = ""
+#guess_count = 0
+#guess_limit = 3
+#out_of_guesses = False
+#while guess != secret_word and not(out_of_guesses):
+#    if guess_count < guess_limit:
+#        guess = input("Enter guess: ")
+#        guess_count += 1
+#    else:
+#        out_of_guesses = True
+#if out_of_guesses:
+#    print("Out of Guesses, YOU LOOSE!")
+#else:
+#    print("You win!")
 
 #while loops
 #i = 1
