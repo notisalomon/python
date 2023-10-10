@@ -1,8 +1,22 @@
-#Writing to files
-employee_file = open("index.html", "w")
-employee_file.write("<p>This is HTML</p>")
-employee_file.close()
+#Building a multiple choice quiz
+class Question:
+    def __init__(self, prompt, answer):
+        self.prompt = prompt
+        self.answer = answer
+    
 
+#Classes and Objects
+#class Student:
+#    def __init__(self, name, major, gpa, is_on_probation):
+#        self.name = name
+#        self.major = major
+#        self.gpa = gpa
+#        self.is_on_probation = is_on_probation
+
+#Writing to files
+#employee_file = open("index.html", "w")
+#employee_file.write("<p>This is HTML</p>")
+#employee_file.close()
 
 #Reading Files
 #employee_file = open("employees.txt", "r")
